@@ -1,0 +1,64 @@
+body {
+    font-family: "Open Sans", serif; /*Sets the font for all the cards to Open Sans*/
+}
+
+p.bio {
+    font-size: large; /*Sets the font size of the biohraphy line*/
+    font-weight: 400; /*Sets the boldness of the biography line*/
+    font-style: italic; /*Makes the text italic*/
+}
+
+p.music {
+    font-weight: 325;
+    font-size: 15px;
+}
+
+.Dua {
+    border: 3px solid purple; /*Sets the size, type, and color of the border*/
+    max-width: 400px; /*Each card should have a maximum width of 400*/
+    margin: 20px; /*Sets the margin around the box border to 20*/
+    padding: 0.5em; /*Sets the space in between the border and the text*/
+    h2 {
+        text-transform: uppercase; /*Makes the name appear in all caps*/
+    }
+
+    h4 {
+        margin-bottom: -15px; /*Decreases the bottom margin, thereby decreasing the space between the h4 and the text*/
+    }
+
+    
+}
+
+.Kacey {
+    border: 3px solid orange;
+    max-width: 400px;
+    margin: 20px;
+    padding: 0.5em;
+    h2 {
+        text-transform: uppercase;
+    }
+
+    h4 {
+        margin-bottom: -15px;
+    }
+
+    
+}
+
+.Kendrick {
+    border: 3px solid red;
+    max-width: 400px;
+    margin:20px;
+    padding: 0.5em;
+    h2 {
+        text-transform: uppercase;
+    }
+
+    h4 {
+        margin-bottom: -15px;
+    }
+
+    p.bio {
+        font-size: large;
+    }
+}
