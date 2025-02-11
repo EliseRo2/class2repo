@@ -2,63 +2,80 @@ body {
     font-family: "Open Sans", serif; /*Sets the font for all the cards to Open Sans*/
 }
 
+h1 {
+    text-transform: uppercase; /*Makes the headline all caps*/
+    text-align: center; /*Centers the headline text*/
+}
+
 p.bio {
-    font-size: large; /*Sets the font size of the biohraphy line*/
-    font-weight: 400; /*Sets the boldness of the biography line*/
+    font-size: 20px; /*Sets the font size of the biohraphy line*/
+    font-weight: 425; /*Sets the boldness of the biography line*/
     font-style: italic; /*Makes the text italic*/
 }
 
 p.music {
-    font-weight: 325;
-    font-size: 15px;
+    font-weight: 325; /*Makes the music achievements text less bold*/
+    font-size: 18px;
+}
+
+li {
+    font-size: 18px; /*Sets the font size of each song title*/
+}
+
+.artists > * {
+    display: inline-block; /*Displays each card in a row in blocks*/
+    vertical-align: top; /*Aligns each card at the top*/
+    width: 400px; /*Sets the width of each card's border*/
+    padding: 0px 10px 10px 10px; /*Sets the padding at 10 for each card*/
+    margin: 20px; /*Sets the margin around the border of each card*/
+    background-color: floralwhite; /*Sets the background color for each card*/
+}
+
+img {
+    width: 100%; /*Sets the width of each image at 100 percent of the size of the card box*/
 }
 
 .Dua {
-    border: 3px solid purple; /*Sets the size, type, and color of the border*/
-    max-width: 400px; /*Each card should have a maximum width of 400*/
-    margin: 20px; /*Sets the margin around the box border to 20*/
-    padding: 0.5em; /*Sets the space in between the border and the text*/
+    border: 4px solid purple; /*Sets the color of the border*/
+    
     h2 {
         text-transform: uppercase; /*Makes the name appear in all caps*/
+        color: purple; /*Sets the color of the artist's name*/
+        margin-top: 5px; 
     }
 
-    h4 {
+    h3 {
         margin-bottom: -15px; /*Decreases the bottom margin, thereby decreasing the space between the h4 and the text*/
     }
 
-    
 }
 
 .Kacey {
-    border: 3px solid orange;
-    max-width: 400px;
-    margin: 20px;
-    padding: 0.5em;
+    border: 4px solid firebrick;
+    
     h2 {
         text-transform: uppercase;
+        color: firebrick;
+        margin-top: 5px;
     }
 
-    h4 {
+    h3 {
         margin-bottom: -15px;
     }
-
-    
+ 
 }
 
 .Kendrick {
-    border: 3px solid red;
-    max-width: 400px;
-    margin:20px;
-    padding: 0.5em;
+    border: 4px solid darkblue;
+    
     h2 {
         text-transform: uppercase;
+        color: darkblue;
+        margin-top: 5px;
     }
 
-    h4 {
+    h3 {
         margin-bottom: -15px;
     }
 
-    p.bio {
-        font-size: large;
-    }
 }
