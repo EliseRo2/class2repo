@@ -23,8 +23,8 @@ li {
 }
 
 .artists > * {
-    display: inline-block; /*Displays each card in a row in blocks*/
-    vertical-align: top; /*Aligns each card at the top*/
+    display: inline-block; /* Displays each card in a row in blocks*/
+    vertical-align: top; /* Aligns each card at the top*/
     width: 400px; /*Sets the width of each card's border*/
     padding: 0px 10px 10px 10px; /*Sets the padding at 10 for each card*/
     margin: 20px; /*Sets the margin around the border of each card*/
@@ -78,4 +78,21 @@ img {
         margin-bottom: -15px;
     }
 
+}
+
+@media ( min-width: 601px) and (max-width:1199px) {
+    div.artists {
+        max-width: 550px;
+    }
+}
+
+@media (max-width: 600px) {
+    div.artists {
+        max-width: 400px;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
 }
